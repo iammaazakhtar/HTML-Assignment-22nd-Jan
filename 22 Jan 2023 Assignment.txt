@@ -1,0 +1,47 @@
+﻿HTML 
+         Assignment 22nd Jan 
+. 
+Q1:Explain the table and its properties. 
+table is a combination of row and columns. 
+table is used to display data in form of rows and columns. 
+table have tr(table row) tag.inside tr we have option of th(table heading) Or td(table data) tag. th tag is used to give table heading and td is used to insert data in our form. 
+as a perent of all row of heading we are using thead tag ans as a perent of all rows of data we are using tbody tags. 
+table have properties like 
+1 => border :to add border to table. 
+2=> cellspacing: to add space between each cell of the table. 
+3=> cellpadding :to add space between table content and table border. 4=> colspan: used when we want to merge a column in a table. 
+5=>rowspan: used when we want to merge rows in a table.
+
+
+Q2:Explain all Media elements and how they work? 
+<video/> : 
+<video src="YAML crash course(1080P_HD).mp4" width="700px" height="400px" autoplay controls>Video is not supported 
+by your browser 
+</video> 
+Video tag have an src attribute in src we pass the path of our video. 
+Second way:inside the video tag we have <source> tag in source tag we have attribute src inside src we can pass the path of our video.video tag have multiple source tag browsers try to load first source tag if it does not load then it try second source tag. 
+Video tag has attribute width,height,controls,autoplay,muted,poster,etc.. <audio>: audio tag is used add songs or audio in our web page. <audio src="path of audio file" controls autoplay></audio> 
+If we have more than one source to load we can used source tag inside audio tag 
+Q3: What is Get and Post in Form? 
+GET: get is type of method to transfer data of form. when we submit the form form-data will pass in the form of url in the key value pair. Form-data is passed to the page which is specified in the action attribute of form. 
+Get method is used to transfer non-sensitive data because data submitted by the user is visible in Url. Also the length of the url is limited to 3000 characters.
+POST: post is type of method to transfer data of form in HTTP post transaction. Post type method appends data in body of http request. 
+More secure and it doesn't show value in url and no size limit also. Q4: List all the input types we have in forms. 
+Text 
+button 
+checkbox 
+color 
+date 
+date-time 
+email 
+file 
+image 
+month 
+number 
+password 
+range 
+reset
+submit search Time 
+Url 
+Week etc…
+Full Stack Web Development
